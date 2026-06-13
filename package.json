@@ -1,0 +1,14 @@
+{
+  "name": "@sulthonzh/jsonpatch",
+  "version": "1.0.0",
+  "description": "RFC 6902 JSON Patch — apply, diff, and validate patches with zero dependencies",
+  "main": "index.js",
+  "bin": { "jsonpatch": "cli.js" },
+  "scripts": { "test": "node test.js" },
+  "keywords": ["json", "patch", "json-patch", "rfc6902", "diff", "merge"],
+  "license": "MIT",
+  "author": "Sulthon <sulthonzh@gmail.com>",
+  "repository": { "type": "git", "url": "https://github.com/sulthonzh/jsonpatch" },
+  "engines": { "node": ">=14" },
+  "files": ["index.js", "cli.js", "README.md"]
+}
