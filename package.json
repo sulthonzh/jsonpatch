@@ -10,5 +10,8 @@
   "author": "Sulthon <sulthonzh@gmail.com>",
   "repository": { "type": "git", "url": "https://github.com/sulthonzh/jsonpatch" },
   "engines": { "node": ">=14" },
-  "files": ["index.js", "cli.js", "README.md"]
+  "files": ["index.js", "cli.js", "README.md"],
+  "publishConfig": {
+    "access": "public"
+  }
 }
